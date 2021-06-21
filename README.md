@@ -41,10 +41,11 @@ Output:
 {
   "result": "ok",
   "tokens": [
-    "chainserve",
+    "utopia",
     "rupee",
+    "joey",
     "rmt",
-    "utopia"
+    "chainserve"
     ]
 }
 ```
