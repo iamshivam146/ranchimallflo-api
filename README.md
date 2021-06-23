@@ -101,7 +101,38 @@ fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt'){
         .then(data => console.log(data));
 }
 ```
+```
+  /api/v1.0/getTokenInfo?token=rmt
+```
+Output:
+```
+{
+  "activeAddress_no": 25,
+  "blockchainReference": "https://flosight.duckdns.org/tx/a74a03ec1e77fa50e0b586b1e9745225ad4f78ce96ca59d6ac025f8057dd095c",
+  "incorporationAddress": "FKNW5eCCp2SnJMJ6pLLpUCvk5hAage8Jtk",
+  "result": "ok",
+  "token": "rmt",
+  "tokenSupply": 21000000,
+  "transactionHash": "a74a03ec1e77fa50e0b586b1e9745225ad4f78ce96ca59d6ac025f8057dd095c"
+}
+```
 
+Python example code
+```
+response = requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
+if response.status_code == 200:
+    json_response = response.json()
+elif response.status_code == 404:
+    print('Not Found.')
+```
+
+Javascript example code
+```
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt'){
+        .then(response => response.json())
+        .then(data => console.log(data));
+}
+```
 ### Information about a token's transactions
 Get information about a token's related transactions on the blockchain 
 ```
