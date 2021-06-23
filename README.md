@@ -69,6 +69,7 @@ Output:
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=utopia')
 ### Example code on how to run in Javascript for utopia ( using Fetch )
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=utopia')
+
 .then(response => response.json())
   
 .then(data => console.log(data));
@@ -76,6 +77,7 @@ fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=utopia')
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rupee')
 ### Example code on how to run in Javascript for rupee ( using Fetch )
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rupee')
+
 .then(response => response.json())
   
 .then(data => console.log(data));
@@ -83,6 +85,7 @@ fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rupee')
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=joey')
 ### Example code on how to run in Javascript for joey ( using Fetch )
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=joey')
+
 .then(response => response.json())
   
 .then(data => console.log(data));
@@ -90,6 +93,7 @@ fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=joey')
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
 ### Example code on how to run in Javascript for rmt ( using Fetch )
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
+
 .then(response => response.json())
   
 .then(data => console.log(data));
