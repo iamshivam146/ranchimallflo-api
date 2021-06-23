@@ -52,7 +52,7 @@ Output:
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenList')
 ```
 Output:
-```
+
 {
   "result": "ok",
   "tokens": [
