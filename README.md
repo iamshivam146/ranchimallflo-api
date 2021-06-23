@@ -54,6 +54,7 @@ requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt'
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
 
   .then(response => response.json())
+  
   .then(data => console.log(data));
 
 ### Information about a token
