@@ -65,13 +65,26 @@ Output:
     ]
 }
 ```
-
-
-
-### Example code on how to run in python( using requests library)
+### Example code on how to run in python for utopia( using requests library)
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=utopia')
+### Example code on how to run in Javascript ( using Fetch )
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=utopia')
+### Example code on how to run in python for rmt( using requests library)
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rupee')
+### Example code on how to run in Javascript ( using Fetch )
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rupee')
+### Example code on how to run in python for rmt( using requests library)
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=joey')
+### Example code on how to run in Javascript ( using Fetch )
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=joey')
+### Example code on how to run in python for rmt( using requests library)
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
 ### Example code on how to run in Javascript ( using Fetch )
 fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
+### Example code on how to run in python for rmt( using requests library)
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=chainserve')
+### Example code on how to run in Javascript ( using Fetch )
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=chainserve')
 
   .then(response => response.json())
   
