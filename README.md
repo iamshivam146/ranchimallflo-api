@@ -48,6 +48,12 @@ Output:
     ]
 }
 ```
+### Example code on how to run in python( using requests library)
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
+### Example code on how to run in Javascript ( using Fetch )
+fetch('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
+  .then(response => response.json())
+  .then(data => console.log(data));
 
 ### Information about a token
 Get information about a token on the FLO blockchain 
