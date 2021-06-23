@@ -48,6 +48,24 @@ Output:
     ]
 }
 ```
+### API Call on the Browser
+requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenList')
+Output:
+```
+{
+  "result": "ok",
+  "tokens": [
+    "utopia",
+    "rupee",
+    "joey",
+    "rmt",
+    "chainserve",
+    ]
+}
+```
+
+
+
 ### Example code on how to run in python( using requests library)
 requests.get('https://ranchimallflo.duckdns.org/api/v1.0/getTokenInfo?token=rmt')
 ### Example code on how to run in Javascript ( using Fetch )
